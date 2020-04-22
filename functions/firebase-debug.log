@@ -1,0 +1,325 @@
+[debug] [2019-11-15T22:21:36.660Z] ----------------------------------------------------------------------
+[debug] [2019-11-15T22:21:36.661Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --port 5002
+[debug] [2019-11-15T22:21:36.661Z] CLI Version:   7.7.0
+[debug] [2019-11-15T22:21:36.662Z] Platform:      linux
+[debug] [2019-11-15T22:21:36.662Z] Node Version:  v12.11.1
+[debug] [2019-11-15T22:21:36.662Z] Time:          Sat Nov 16 2019 03:51:36 GMT+0530 (India Standard Time)
+[debug] [2019-11-15T22:21:36.662Z] ----------------------------------------------------------------------
+[debug] [2019-11-15T22:21:36.662Z] 
+[debug] [2019-11-15T22:21:36.666Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-15T22:21:36.666Z] > authorizing via signed-in user
+[debug] [2019-11-15T22:21:36.666Z] [iam] checking project cycle-it-be434 for permissions ["firebase.projects.get"]
+[debug] [2019-11-15T22:21:36.667Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cycle-it-be434:testIamPermissions  
+
+[debug] [2019-11-15T22:21:38.421Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-15T22:21:38.427Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cycle-it-be434  
+ 
+[debug] [2019-11-15T22:21:38.903Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5002
+[info] i  functions: Watching "/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions" for Cloud Functions...
+[debug] [2019-11-15T22:21:39.219Z] [worker-~diagnostic~-ca344246-ccad-46b5-8396-2d824503738b]: BUSY
+[debug] [2019-11-15T22:21:39.408Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions","node_version":"12.11.1"}
+[debug] [2019-11-15T22:21:39.409Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-15T22:21:39.410Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-15T22:21:39.411Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:21:39.412Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[api]: http function initialized (http://localhost:5002/cycle-it-be434/us-central1/api).
+[debug] [2019-11-15T22:21:39.674Z] [worker-~diagnostic~-ca344246-ccad-46b5-8396-2d824503738b]: exited
+[debug] [2019-11-15T22:21:39.674Z] [worker-~diagnostic~-ca344246-ccad-46b5-8396-2d824503738b]: FINISHED
+[debug] [2019-11-15T22:21:59.724Z] Accepted request POST /cycle-it-be434/us-central1/api/login --> api
+[debug] [2019-11-15T22:21:59.733Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: BUSY
+[debug] [2019-11-15T22:21:59.969Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions","node_version":"12.11.1"}
+[debug] [2019-11-15T22:21:59.971Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-15T22:21:59.972Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-15T22:21:59.975Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:21:59.977Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:22:00.338Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-11-15T22:22:00.339Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-11-15T22:22:00.339Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-11-15T22:22:00.349Z] {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:22:00.351Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:22:00.380Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-15T22:22:00.406Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-11-15T22:22:01.603Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: IDLE
+[debug] [2019-11-15T22:22:20.135Z] Accepted request POST /cycle-it-be434/us-central1/api/users/image --> api
+[debug] [2019-11-15T22:22:20.136Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: BUSY
+[debug] [2019-11-15T22:22:20.137Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-11-15T22:22:20.137Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-11-15T22:22:20.137Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-11-15T22:22:20.138Z] {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:22:20.139Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:22:20.144Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-15T22:22:20.179Z] [runtime-status] Ephemeral server survived. {}
+[info] >  image FileStream {
+[info] >    _readableState: ReadableState {
+[info] >      objectMode: false,
+[info] >      highWaterMark: 16384,
+[info] >      buffer: BufferList { head: null, tail: null, length: 0 },
+[info] >      length: 0,
+[info] >      pipes: null,
+[info] >      pipesCount: 0,
+[info] >      flowing: null,
+[info] >      ended: false,
+[info] >      endEmitted: false,
+[info] >      reading: false,
+[info] >      sync: true,
+[info] >      needReadable: false,
+[info] >      emittedReadable: false,
+[info] >      readableListening: false,
+[info] >      resumeScheduled: false,
+[info] >      paused: true,
+[info] >      emitClose: true,
+[info] >      autoDestroy: false,
+[info] >      destroyed: false,
+[info] >      defaultEncoding: 'utf8',
+[info] >      awaitDrain: 0,
+[info] >      readingMore: false,
+[info] >      decoder: null,
+[info] >      encoding: null
+[info] >    },
+[info] >    readable: true,
+[info] >    _events: [Object: null prototype] { end: [Function] },
+[info] >    _eventsCount: 1,
+[info] >    _maxListeners: undefined,
+[info] >    truncated: false,
+[info] >    _read: [Function]
+[info] >  } renter.jpeg 7bit image/jpeg
+[info] >  Error: 5 NOT_FOUND: No document to update: projects/cycle-it-be434/databases/(default)/documents/users/undefined
+[info] >      at Object.callErrorFromStatus (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/call.js:30:26)
+[info] >      at Http2CallStream.<anonymous> (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/client.js:96:33)
+[info] >      at Http2CallStream.emit (events.js:215:7)
+[info] >      at /home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/call-stream.js:75:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+[info] >    code: 5,
+[info] >    details: 'No document to update: projects/cycle-it-be434/databases/(default)/documents/users/undefined',
+[info] >    metadata: Metadata { internalRepr: Map {}, options: {} }
+[info] >  }
+[info] i  functions: Finished "api" in ~6s
+[debug] [2019-11-15T22:22:26.574Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: IDLE
+[debug] [2019-11-15T22:23:54.722Z] Accepted request POST /cycle-it-be434/us-central1/api/users/image --> api
+[debug] [2019-11-15T22:23:54.722Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: BUSY
+[debug] [2019-11-15T22:23:54.723Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-11-15T22:23:54.724Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-11-15T22:23:54.724Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-11-15T22:23:54.725Z] {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:23:54.726Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:23:54.730Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-15T22:23:54.731Z] [runtime-status] Ephemeral server survived. {}
+[info] >  image FileStream {
+[info] >    _readableState: ReadableState {
+[info] >      objectMode: false,
+[info] >      highWaterMark: 16384,
+[info] >      buffer: BufferList { head: null, tail: null, length: 0 },
+[info] >      length: 0,
+[info] >      pipes: null,
+[info] >      pipesCount: 0,
+[info] >      flowing: null,
+[info] >      ended: false,
+[info] >      endEmitted: false,
+[info] >      reading: false,
+[info] >      sync: true,
+[info] >      needReadable: false,
+[info] >      emittedReadable: false,
+[info] >      readableListening: false,
+[info] >      resumeScheduled: false,
+[info] >      paused: true,
+[info] >      emitClose: true,
+[info] >      autoDestroy: false,
+[info] >      destroyed: false,
+[info] >      defaultEncoding: 'utf8',
+[info] >      awaitDrain: 0,
+[info] >      readingMore: false,
+[info] >      decoder: null,
+[info] >      encoding: null
+[info] >    },
+[info] >    readable: true,
+[info] >    _events: [Object: null prototype] { end: [Function] },
+[info] >    _eventsCount: 1,
+[info] >    _maxListeners: undefined,
+[info] >    truncated: false,
+[info] >    _read: [Function]
+[info] >  } renter.jpeg 7bit image/jpeg
+[info] >  Error: 5 NOT_FOUND: No document to update: projects/cycle-it-be434/databases/(default)/documents/users/undefined
+[info] >      at Object.callErrorFromStatus (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/call.js:30:26)
+[info] >      at Http2CallStream.<anonymous> (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/client.js:96:33)
+[info] >      at Http2CallStream.emit (events.js:215:7)
+[info] >      at /home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/call-stream.js:75:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+[info] >    code: 5,
+[info] >    details: 'No document to update: projects/cycle-it-be434/databases/(default)/documents/users/undefined',
+[info] >    metadata: Metadata { internalRepr: Map {}, options: {} }
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-11-15T22:23:56.344Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: IDLE
+[debug] [2019-11-15T22:24:15.549Z] Accepted request POST /cycle-it-be434/us-central1/api/users/image --> api
+[debug] [2019-11-15T22:24:15.549Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: BUSY
+[debug] [2019-11-15T22:24:15.550Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-11-15T22:24:15.550Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-11-15T22:24:15.551Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-11-15T22:24:15.552Z] {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:24:15.553Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_32622.sock"}
+[debug] [2019-11-15T22:24:15.557Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-15T22:24:15.558Z] [runtime-status] Ephemeral server survived. {}
+[info] >  image FileStream {
+[info] >    _readableState: ReadableState {
+[info] >      objectMode: false,
+[info] >      highWaterMark: 16384,
+[info] >      buffer: BufferList { head: null, tail: null, length: 0 },
+[info] >      length: 0,
+[info] >      pipes: null,
+[info] >      pipesCount: 0,
+[info] >      flowing: null,
+[info] >      ended: false,
+[info] >      endEmitted: false,
+[info] >      reading: false,
+[info] >      sync: true,
+[info] >      needReadable: false,
+[info] >      emittedReadable: false,
+[info] >      readableListening: false,
+[info] >      resumeScheduled: false,
+[info] >      paused: true,
+[info] >      emitClose: true,
+[info] >      autoDestroy: false,
+[info] >      destroyed: false,
+[info] >      defaultEncoding: 'utf8',
+[info] >      awaitDrain: 0,
+[info] >      readingMore: false,
+[info] >      decoder: null,
+[info] >      encoding: null
+[info] >    },
+[info] >    readable: true,
+[info] >    _events: [Object: null prototype] { end: [Function] },
+[info] >    _eventsCount: 1,
+[info] >    _maxListeners: undefined,
+[info] >    truncated: false,
+[info] >    _read: [Function]
+[info] >  } back.png 7bit image/png
+[info] >  Error: 5 NOT_FOUND: No document to update: projects/cycle-it-be434/databases/(default)/documents/users/undefined
+[info] >      at Object.callErrorFromStatus (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/call.js:30:26)
+[info] >      at Http2CallStream.<anonymous> (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/client.js:96:33)
+[info] >      at Http2CallStream.emit (events.js:215:7)
+[info] >      at /home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/@grpc/grpc-js/build/src/call-stream.js:75:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+[info] >    code: 5,
+[info] >    details: 'No document to update: projects/cycle-it-be434/databases/(default)/documents/users/undefined',
+[info] >    metadata: Metadata { internalRepr: Map {}, options: {} }
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-11-15T22:24:17.272Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: IDLE
+[debug] [2019-11-15T22:32:10.499Z] File /home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/handelers/users.js changed, reloading triggers
+[debug] [2019-11-15T22:32:11.504Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-11-15T22:32:11.518Z] [worker-~diagnostic~-6eac929a-32de-4b53-b41a-d34f9129bc80]: BUSY
+[debug] [2019-11-15T22:32:11.521Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: exited
+[debug] [2019-11-15T22:32:11.522Z] [worker-api-54dab7e7-070f-43f5-b19a-a984eafb54d1]: FINISHED
+[debug] [2019-11-15T22:32:11.720Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions","node_version":"12.11.1"}
+[debug] [2019-11-15T22:32:11.722Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-15T22:32:11.723Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-15T22:32:11.724Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:32:11.725Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:32:11.993Z] [worker-~diagnostic~-6eac929a-32de-4b53-b41a-d34f9129bc80]: exited
+[debug] [2019-11-15T22:32:11.993Z] [worker-~diagnostic~-6eac929a-32de-4b53-b41a-d34f9129bc80]: FINISHED
+[debug] [2019-11-15T22:32:17.149Z] Accepted request POST /cycle-it-be434/us-central1/api/users/image --> api
+[debug] [2019-11-15T22:32:17.153Z] [worker-api-cb843cfc-5b3c-47f0-8f1d-56e8f5136108]: BUSY
+[debug] [2019-11-15T22:32:17.349Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions","node_version":"12.11.1"}
+[debug] [2019-11-15T22:32:17.350Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-15T22:32:17.352Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-15T22:32:17.352Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:32:17.353Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:32:17.626Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-11-15T22:32:17.626Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-11-15T22:32:17.626Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-11-15T22:32:17.630Z] {"socketPath":"/tmp/firebase_emulator_invocation_572.sock"}
+[debug] [2019-11-15T22:32:17.631Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_572.sock"}
+[debug] [2019-11-15T22:32:17.640Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-15T22:32:17.671Z] [runtime-status] Ephemeral server survived. {}
+[info] >  image FileStream {
+[info] >    _readableState: ReadableState {
+[info] >      objectMode: false,
+[info] >      highWaterMark: 16384,
+[info] >      buffer: BufferList { head: null, tail: null, length: 0 },
+[info] >      length: 0,
+[info] >      pipes: null,
+[info] >      pipesCount: 0,
+[info] >      flowing: null,
+[info] >      ended: false,
+[info] >      endEmitted: false,
+[info] >      reading: false,
+[info] >      sync: true,
+[info] >      needReadable: false,
+[info] >      emittedReadable: false,
+[info] >      readableListening: false,
+[info] >      resumeScheduled: false,
+[info] >      paused: true,
+[info] >      emitClose: true,
+[info] >      autoDestroy: false,
+[info] >      destroyed: false,
+[info] >      defaultEncoding: 'utf8',
+[info] >      awaitDrain: 0,
+[info] >      readingMore: false,
+[info] >      decoder: null,
+[info] >      encoding: null
+[info] >    },
+[info] >    readable: true,
+[info] >    _events: [Object: null prototype] { end: [Function] },
+[info] >    _eventsCount: 1,
+[info] >    _maxListeners: undefined,
+[info] >    truncated: false,
+[info] >    _read: [Function]
+[info] >  } back.png 7bit image/png
+[info] i  functions: Finished "api" in ~3s
+[debug] [2019-11-15T22:32:21.042Z] [worker-api-cb843cfc-5b3c-47f0-8f1d-56e8f5136108]: IDLE
+[debug] [2019-11-15T22:55:45.109Z] File /home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/index.js changed, reloading triggers
+[debug] [2019-11-15T22:55:46.111Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-11-15T22:55:46.127Z] [worker-~diagnostic~-48fb80c6-03c3-46bc-9041-b330d0644595]: BUSY
+[debug] [2019-11-15T22:55:46.130Z] [worker-api-cb843cfc-5b3c-47f0-8f1d-56e8f5136108]: exited
+[debug] [2019-11-15T22:55:46.131Z] [worker-api-cb843cfc-5b3c-47f0-8f1d-56e8f5136108]: FINISHED
+[debug] [2019-11-15T22:55:46.306Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions","node_version":"12.11.1"}
+[debug] [2019-11-15T22:55:46.307Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-15T22:55:46.309Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-15T22:55:46.310Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T22:55:46.310Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.<computed> [as post] (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/express/lib/application.js:482:19)
+    at Object.<anonymous> (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/index.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+    at Module.require (internal/modules/cjs/loader.js:838:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:709:33
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-11-15T22:55:46.582Z] [worker-~diagnostic~-48fb80c6-03c3-46bc-9041-b330d0644595]: exited
+[debug] [2019-11-15T22:55:46.582Z] [worker-~diagnostic~-48fb80c6-03c3-46bc-9041-b330d0644595]: FINISHED
+[debug] [2019-11-15T23:06:17.251Z] File /home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/handelers/bicycle.js changed, reloading triggers
+[debug] [2019-11-15T23:06:18.267Z] [worker-~diagnostic~-1c118468-70e7-4294-80e6-6823f9ef804b]: BUSY
+[debug] [2019-11-15T23:06:18.698Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions","node_version":"12.11.1"}
+[debug] [2019-11-15T23:06:18.701Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-15T23:06:18.703Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-15T23:06:18.704Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-15T23:06:18.705Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.<computed> [as get] (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/node_modules/express/lib/application.js:482:19)
+    at Object.<anonymous> (/home/sniperline047/Projects/CycleApp/Server/cycle-it-functions/functions/index.js:31:5)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+    at Module.require (internal/modules/cjs/loader.js:838:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:709:33
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-11-15T23:06:19.137Z] [worker-~diagnostic~-1c118468-70e7-4294-80e6-6823f9ef804b]: exited
+[debug] [2019-11-15T23:06:19.138Z] [worker-~diagnostic~-1c118468-70e7-4294-80e6-6823f9ef804b]: FINISHED
